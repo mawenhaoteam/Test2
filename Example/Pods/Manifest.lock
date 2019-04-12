@@ -1,0 +1,50 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Test2 (0.1.0):
+    - AFNetworking (~> 2.3)
+    - WHCategoryKit (~> 0.6.0)
+  - WHCategoryKit (0.6.0):
+    - AFNetworking (~> 2.3)
+
+DEPENDENCIES:
+  - Test2 (from `../`)
+  - WHCategoryKit (= 0.6.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+  https://github.com/mawenhaoteam/WHSpecs.git:
+    - WHCategoryKit
+
+EXTERNAL SOURCES:
+  Test2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Test2: 4dfbd1a0c53b1d9e5df447e7af6b25607d863579
+  WHCategoryKit: f274ce5c0e1d89a616a0c02465b8f1fe9af56a65
+
+PODFILE CHECKSUM: 314964a64f00399885216b5fff901d5a4cb39176
+
+COCOAPODS: 1.6.0

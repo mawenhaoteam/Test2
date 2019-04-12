@@ -1,0 +1,35 @@
+{
+  "name": "Test2",
+  "version": "0.1.0",
+  "summary": "A short description of Test2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wenhao053/Test2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wenhao053": "308266423@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wenhao053/Test2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Test2/Classes/**/*",
+  "resource_bundles": {
+    "Test2": [
+      "Test2/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "WHCategoryKit": [
+      "~> 0.6.0"
+    ]
+  }
+}
